@@ -20,5 +20,13 @@ namespace SimpleWpfApp.ViewModel
         return new ObservableCollection<ISomeInterface>(list);
       }
     }
+
+
+    public List<object> SomeOtherThings => new List<object>
+    {
+      new SomeClass {Value = "initialised"},
+      new SomeClass {Value = "in"},
+      new SomeClass {Value = "code"}
+    };
   }
 }

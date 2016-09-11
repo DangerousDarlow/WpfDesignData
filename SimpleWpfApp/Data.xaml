@@ -1,9 +1,0 @@
-﻿<viewModel:MainWindowViewModel xmlns:viewModel="clr-namespace:SimpleWpfApp.ViewModel"
-                               xmlns:model="clr-namespace:SimpleWpfApp.Model">
-  <viewModel:MainWindowViewModel.SomeThings>
-    <model:SomeClass Value="some"/>
-    <model:SomeClass Value="more"/>
-    <model:SomeClass Value="design"/>
-    <model:SomeClass Value="data"/>
-  </viewModel:MainWindowViewModel.SomeThings>
-</viewModel:MainWindowViewModel>

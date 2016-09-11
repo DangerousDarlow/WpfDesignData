@@ -4,4 +4,8 @@
     <model:SomeClass Value="design"/>
     <model:SomeClass Value="data"/>
   </viewModel:MainWindowViewModel.SomeThings>
+  <viewModel:MainWindowViewModel.SomeOtherThings>
+    <model:SomeClass Value="design"/>
+    <model:SomeClass Value="data"/>
+  </viewModel:MainWindowViewModel.SomeOtherThings>
 </viewModel:MainWindowViewModel>

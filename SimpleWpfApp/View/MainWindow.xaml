@@ -6,8 +6,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525"
         DataContext="{Binding MainWindowViewModel, Source={StaticResource Locator}}"
-        d:DataContext="{d:DesignData Source=/Data.xaml}">
+        d:DataContext="{d:DesignData Source=/SampleData/Data.xaml}">
   <DockPanel>
-    <ListBox ItemsSource="{Binding SomeThings}" />
+    <ListBox DockPanel.Dock="Top" ItemsSource="{Binding SomeThings}" />
+    <ListBox DockPanel.Dock="Top" ItemsSource="{Binding SomeOtherThings}" />
   </DockPanel>
 </Window>
